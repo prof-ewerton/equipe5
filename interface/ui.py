@@ -8,7 +8,7 @@ class Ui:
 
     def show(self):
         while True:
-            print("\n===== TEMA DA EQUIPE =====")
+            print("\n===== ESCOLA DE MAGIA =====")
 
             # Exibe as opções dinamicamente
             for number, description, action in self.MENU_OPTIONS:
@@ -34,5 +34,9 @@ class Ui:
                 print("Opção inválida. Tente novamente.")
 
     def menu_entity_one(self):
-        print("\n===== TEMA DA EQUIPE =====")
-        print("= Entidade do Estudante ==")
+        print("\n===== ESCOLA DE MAGIA =====")
+        print("= Aluno ==")
+
+
+
+
