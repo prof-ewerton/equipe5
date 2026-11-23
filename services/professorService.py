@@ -1,7 +1,7 @@
 from entities.professor import Professor
 
 
-class Services:
+class professorService:
 
     def __init__(self, repository):
         self.repository = repository
