@@ -11,6 +11,7 @@ class DAOProfessor:
                 "INSERT INTO professor (nome, especialidade, experiencia, ativo) VALUES (?, ?, ?, ?)",
                 (professor.nome, professor.especialidade, int(professor.experiencia), bool(professor.ativo),
             )
+            )
             connection.commit()
             professor.id = cursor.lastrowid
             return professor

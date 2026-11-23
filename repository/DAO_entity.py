@@ -1,4 +1,4 @@
-from database.connection import get_connection
+from database.connection import get_db_connection
 from entities.entity import Entity
 
 
