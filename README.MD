@@ -28,4 +28,5 @@ A funcionalidade deverá:
 7. Validar se o valor digitado para o atributo de categoria corresponde exatamente a uma das três opções permitidas, rejeitando valores incorretos ou com erros de digitação.
 8. Persistir o registro no banco de dados e informar ao usuário se o cadastro foi realizado com sucesso.
 
+Mateus Aguiar - Aluno
 Carlos Eduardo - Professores
