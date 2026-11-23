@@ -1,5 +1,5 @@
 class Entity:
-    CASAS = ("Corvinal", "Grifinória", "Sonserina", "Lufa-Lufa")
+    CASAS_PERMITIDAS = ("Corvinal", "Grifinória", "Sonserina", "Lufa-Lufa")
 
     def __init__(self, nome, idade, ativo, casaMagica, id=None):
         self.id = id
