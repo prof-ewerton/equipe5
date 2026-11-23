@@ -1,8 +1,14 @@
-from interface.ui import Ui
+from repository.dao_entity import DAOEntity
+from service.services import Services
+from interface.gui import UI
+
 
 def main():
-    ui = Ui()
-    ui.show()
+    repository = DAOEntity()
+    services = Services(repository)
+    ui = UI(services)
+    ui.show_principal_menu()
+
 
 if __name__ == "__main__":
     main()

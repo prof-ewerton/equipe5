@@ -36,7 +36,3 @@ class Ui:
     def menu_entity_one(self):
         print("\n===== ESCOLA DE MAGIA =====")
         print("= Aluno ==")
-
-
-
-
